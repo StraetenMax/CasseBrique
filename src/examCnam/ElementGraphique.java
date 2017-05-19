@@ -36,5 +36,17 @@ public class ElementGraphique {
 		this.largeur= largeur;
 	}
 	
-	//
+	//méthodes
+	public String afficher(){
+		String str = "Element affiché";
+		return str;
+	}
+	public String masquer(){
+		String str1 = "Element masqué";
+		return str1;
+	}
+	public String description(){
+		String str2 = "Element graphique nommé : "+this.getNom()+" qui a "+this.getHauteur()+" pixels de haut et "+this.getLargeur()+" pixels de large";
+		return str2;
+	}
 }
