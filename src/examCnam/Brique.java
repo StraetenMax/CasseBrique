@@ -35,5 +35,17 @@ public class Brique extends ElementFixe {
 		}
 	}
 			//méthodes
-	
+	public boolean estMoinsAbimeeQue(Brique br){
+		boolean str;
+		if(this.getNiveau()> br.getNiveau()){
+			str = true;
+		}else{
+			str =false;
+		}
+		return str;
+	}
+	public String description(){
+		String str1 = super.description()+" dont le niveau est de "+this.getNiveau();
+		return str1;
+	}
 }
