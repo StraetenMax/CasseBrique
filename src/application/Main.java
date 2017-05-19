@@ -36,7 +36,7 @@ public class Main {
 		System.out.println(B1.estMoinsAbimeeQue(B2));
 		System.out.println(B2.estMoinsAbimeeQue(B1));
 
-	
+		
 	}
 
 }

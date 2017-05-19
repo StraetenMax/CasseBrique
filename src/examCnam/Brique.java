@@ -45,7 +45,7 @@ public class Brique extends ElementFixe {
 		return str;
 	}
 	public String description(){
-		String str1 = super.description()+" dont le niveau est de "+this.getNiveau();
+		String str1 = super.description()+" dont le niveau est de "+this.getNiveau()+" donc "+this.getAAfficher();
 		return str1;
 	}
 }
