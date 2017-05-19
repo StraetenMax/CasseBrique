@@ -19,9 +19,22 @@ public class Main {
 	
 		//Appeler la méthode 
 		System.out.println(E1.description());
+		
 		System.out.println(F1.description());
+		
 		System.out.println(B1.description());
 		
+		System.out.println(B2.description());
+		
+		System.out.println(M1.description());
+		
+		System.out.println(M2.description());
+		
+		System.out.println(M1.plusHautQue(M2));
+		System.out.println(M2.plusHautQue(M1));
+		
+		System.out.println(B1.estMoinsAbimeeQue(B2));
+		System.out.println(B2.estMoinsAbimeeQue(B1));
 
 	
 	}
