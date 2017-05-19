@@ -16,6 +16,14 @@ public class Main {
 
 		Mur M1 = new Mur("Mur 1", 40, 20000, 1, 1, "Bleu");
 		Mur M2 = new Mur("Mur 2", 20000, 40, 1, 1, "Bleu");
+	
+		//Appeler la méthode 
+		System.out.println(E1.description());
+		System.out.println(F1.description());
+		System.out.println(B1.description());
+		
+
+	
 	}
 
 }
