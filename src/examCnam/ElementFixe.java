@@ -18,7 +18,28 @@ public class ElementFixe extends ElementGraphique{
 	}
 	
 	//accesseurs et mutateurs
+	public int getX(){
+		return x;
+	}
+	public int getY(){
+		return y;
+	}
+	public void setX(int x){
+		this.x=x;
+	}
+	public void setY(int y){
+		this.y=y;
+	}
 	
+	//méthodes
+	public String afficher(){
+		String str = "Element fixe affiché";
+		return str;
+	}
+	public String description(){
+		String str1 = super.description()+" qui est en position X "+this.getX()+" et position Y "+this.getY();
+		return str1;
+	}
 	
 
 }
